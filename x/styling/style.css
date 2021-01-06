@@ -1,0 +1,63 @@
+body {
+  background-color: #123;
+  }
+.navbar {
+  background-color: #345;
+  height: 40px;
+  flex-wrap: wrap;
+}
+
+.loginForm {
+  padding-top: 5px;
+  float: right;
+  padding-right: 6px;
+}
+
+.loginForm input {
+  height: 25px;
+  width: 180px;
+  font-family: serif;
+  font-size: 16px;
+  text-align: center;
+  background-color: #567;
+  color: white;
+  border: none;
+}
+
+.loginForm button {
+  height: 28px;
+  padding-top: 0.2px;
+  font-size: 14px;
+  width: 80px;
+  color: #fff;
+  font-family: serif;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  opacity: 0.8;
+}
+
+
+.signuplink {
+  font-family: serif;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 19px;
+  position: absolute;
+  padding-top: 2px;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-top: 7px;
+  border: solid 2px black;
+  background-color: black;
+}
+
+.signuplink:hover {
+  opacity: 0.8;
+}

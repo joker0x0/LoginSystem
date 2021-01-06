@@ -1,0 +1,75 @@
+.signupForm input{
+  display: block;
+  width: 250px;
+  height: 35px;
+  font-family: serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  background-color: #567;
+  border: none;
+}
+
+.signupForm button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  font-family: serif;
+  font-size: 20px;
+  padding: 2px;
+  width: 160px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.signupForm button:hover {
+  opacity: 0.8;
+}
+
+.signupdiv h1 {
+  padding-bottom: 10px;
+  font-family: arial;
+  font-size: 50px;
+}
+
+.signupdiv {
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 260px;
+  margin: auto;
+  margin-top: 50px;
+  border: solid 2px black;
+  padding: 80px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  background-color: #345;
+}
+
+.goback {
+  font-family: serif;
+  width: auto;
+  height: 40px;
+  padding-left: 6px;
+  background-color: #345;
+  flex-wrap: wrap;
+}
+
+.goback a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: solid 2px black;
+  display: flex;
+  position: absolute;
+  padding-top: 2px;
+  padding-left: 4px;
+  margin-left: 4px;
+  margin-top: 7px;
+  width: 61px;
+  height: 19px;
+}
+
+.goback a:hover {
+  opacity: 0.8;
+}

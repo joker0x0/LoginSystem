@@ -1,0 +1,41 @@
+body {
+  background-color: #123;
+}
+
+
+.navHeader {
+  font-family: serif;
+  width: auto;
+  height: 40px;
+  background-color: #345;
+  flex-wrap: wrap;
+}
+
+
+.helloMsg {
+  padding-left: 6px;
+  padding-top: 10px;
+  color: white;
+  position: absolute;
+}
+
+.logoutForm {
+  padding-top: 5px;
+  padding-right: 6px;
+  float: right;
+}
+
+.logoutForm button{
+  height: 28px;
+  padding-top: 0.2px;
+  font-size: 14px;
+  width: 80px;
+  color: #fff;
+  font-family: serif;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.btnLogOut:hover {
+  opacity: 0.8;
+}
