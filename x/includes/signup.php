@@ -56,22 +56,3 @@ class Users extends DBH {
       }
     }
   }
-
-
-
-/*
-
-
-check if the user exists
-
-public function checkUserExists($username) {
-  $sql = "SELECT * FROM users WHERE username=?";
-  $stmt = $this->connect()->prepare($sql);
-  $stmt->execute([$username]);
-  while($row = $stmt->fetchAll()) {
-    header("Location: signuppage.php?user=found");
-    exit();
-  }
-}
-
-*/
